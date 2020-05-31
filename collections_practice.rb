@@ -51,7 +51,7 @@ end
 array = ["hand","feet", "knee", "table"]
 
 def add_s(array) 
-  array[0, 2] << "s"
+  array[0] << "s"
 end
 
 
