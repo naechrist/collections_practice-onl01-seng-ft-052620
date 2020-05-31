@@ -45,5 +45,5 @@ end
 array = [11,4,7,8,9,100,134]
 
 def sum_array(array)
-
+array.inject { |sum, n| sum + n }
 end
