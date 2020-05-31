@@ -51,7 +51,7 @@ end
 array = 
 
 def add_s(array) 
-
+["hand","feet", "knee", "table"].each_with_index.collect 
 end
 
 
