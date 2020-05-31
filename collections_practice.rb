@@ -48,9 +48,9 @@ def sum_array(array)
 array.inject { |sum, n| sum + n }
 end
 
-array = 
+array = ["hand","feet", "knee", "table"]
 def add_s(array) 
- new_array = []
+ array.each_with_index.collect { |element, index| }
 
 end
 
