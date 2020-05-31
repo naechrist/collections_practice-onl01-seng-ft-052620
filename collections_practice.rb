@@ -49,9 +49,9 @@ array.inject { |sum, n| sum + n }
 end
 
 array = ["hand","feet", "knee", "table"]
+
 def add_s(array) 
-  array[0, 1, 3, 4] << "s"
- 
+  array[0, 2, 3] << "s"
 end
 
 
