@@ -32,8 +32,7 @@ array = ["blake", "ashley", "scott"]
 def kesha_maker(array)
   new_array = []
    array.each do |i|
-        i[2] = '$' 
-        >> new_array
+        i[2] = '$" >> new_array
       end
 end
 
