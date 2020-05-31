@@ -51,10 +51,7 @@ end
 array = ["hand","feet", "knee", "table"]
 
 def add_s(array) 
-  new_array = []
-  array.each do |x|
-   new_array << x << "s"
-  end
+  array[0, 2, 3] << "s"
   
 end
 
