@@ -42,7 +42,8 @@ def find_a(array)
 array.find_all { |a| a.start_with?("a") }
 end
 
-array = 
+array = [11,4,7,8,9,100,134]
+
 def sum_array(array)
 
 end
