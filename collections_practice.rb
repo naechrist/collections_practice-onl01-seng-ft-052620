@@ -53,9 +53,9 @@ array = ["hand","feet", "knee", "table"]
 def add_s(array) 
   new_array = []
   array.each do |x|
-    x << "s"
+   new_array << x << "s"
   end
-  new_array
+  
 end
 
 
